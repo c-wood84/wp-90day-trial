@@ -1,0 +1,22 @@
+{
+  "name": "90-day-trial",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Wesley Chitwood <wesley.chitwood1@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/c-wood84/wp-90day-trial",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}

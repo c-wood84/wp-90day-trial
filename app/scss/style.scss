@@ -1,0 +1,312 @@
+@import 'partials/_variables.scss';
+@import 'partials/_mixins.scss';
+@import 'partials/_general.scss';
+@import 'partials/_global.scss';
+@import 'partials/_formmodal.scss';
+
+/* ===== SITE HEADER ===== */
+.site-header { 
+	background: $white;
+	height: 80px;
+	position: relative;
+	z-index: 1;
+	.header-wrapper {
+		padding: 10px 0 15px;
+
+		.logo {
+			text-align: center;
+		}
+	}
+
+	.phone-num {
+		color:$wp-green;
+		text-align: center;
+		h4 {
+			padding:5px 0 10px 0;
+			span {
+				font-weight:$normal;
+			}
+			a:link, a:visited {
+				color: $wp-green;
+			}
+		}
+	}
+}
+
+
+/* ===== HERO ===== */
+#hero {
+	background:url('../img/90day-hero.png') 50% 0 no-repeat;
+	min-height: 300px;
+	background-size: cover;
+	padding:40px 0;
+	position: relative;
+	margin-top: 15px;
+	@include sexy-font;
+
+	article {
+		width: 100%;
+		text-align:center;
+		position:relative;
+		top:140px;
+		background: $white;
+		opacity: 0.8;
+		filter: alpha(opacity=80);
+	}
+
+	.hero-text {
+		margin: 12px 0;
+		h1 {
+			color:$wp-red;
+			font-weight: 500;
+			font-size: 2.2rem;
+			padding: 0;
+			margin: 3px 0;
+		}
+	}
+}
+
+
+/* ===== LAYOUT ===== */
+section {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.section-header {
+	h2 {
+		color: $wp-green;
+		font-weight: $medium;
+		margin:0 10px;
+		padding:0;
+	}
+}
+
+#choose-worldpay {
+	h3 {
+		color: $wp-green;
+		font-weight: $medium;
+		padding:15px 0;
+	}
+}
+
+
+
+/* ===== EXPERIENCE WORLDPAY ===== */
+#worldpay-difference {
+	height: auto;
+	background-color: #f3f1f2;
+	border-top:1px solid #fff;
+	border-bottom: 1px solid #fff;
+	h2 {
+		color: $content-color;
+		font-weight: $normal;
+		padding:10px 0;
+	}
+
+	h4 {
+			color: $wp-green;
+			padding: 5px 0;
+			font-weight: $normal;
+		}
+
+		p {
+			width: 80%;
+			font-size: 1.4rem;
+			margin: 0 auto;
+		}
+
+	.bg-circle div {
+		margin: 10px auto;
+	}
+
+	.wp-circle {
+		@include circle;
+		width:180px;
+		height:180px;
+		margin:0 auto;
+	}
+
+	/* ===== CUSTOM ICON SPRITES ===== */
+	i.wp-exp {
+		display: inline-block;
+		height: 180px;
+		width: 180px;
+		background: url('../img/wp-90day-lp-sprites.png') no-repeat;
+	}
+
+		.wp-exp.exp-anywhere {
+			background-position: 0 0;
+		}
+		.wp-exp.exp-fraud {
+			background-position: -180px 0;
+
+		}
+		.wp-exp.exp-support {
+			background-position: -360px 0;
+		}
+}
+
+/* ===== CUSTOM ICON SPRITES ===== */
+footer {
+	background: #fff;
+	padding: 15px 0;
+
+	.foot-links {
+		text-align: right;
+		float: right;
+		ul {
+			width: 100%;
+			list-style: none;
+			margin: 0;
+			padding:0;
+			overflow: hidden;
+		}
+		li {
+			float: left;
+			a {
+				display: block;
+				padding: 0px 7px;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.t-q {
+		font-size: 1.2rem;
+	}
+
+	.copyright {
+		font-size: 1.2rem;
+	}
+
+}
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) {
+
+
+
+	
+	/* ===== SITE HEADER ===== */
+	.site-header { 
+		.header-wrapper {
+			.logo {
+				text-align: left;
+				float: left;
+			}
+		}
+
+			.phone-num {
+				color:$wp-green;
+				text-align: right;
+				float: right;
+			}
+	}
+
+	/* ===== HERO ===== */
+	#hero {
+		position:relative;
+		z-index: 100;
+		top: -35px;
+		min-height: 400px;
+
+		article {
+		width: 100%;
+		text-align:center;
+		position:relative;
+		top:240px;
+	}
+
+		.hero-text {
+			margin: 12px 0;
+
+			h1 {
+				color:$wp-red;
+				font-weight: 500;
+				font-size: 2.5rem;
+			}
+		}
+	}
+
+
+
+
+
+
+
+/* ===== EXPERIENCE WORLDPAY ===== */
+
+.bg-circle {
+		margin-top: 35px;
+		background: url('../img/wp-90day-redbullet.png') 57% 28% no-repeat;
+		height: auto;
+	}
+
+
+
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	/* ===== HERO ===== */
+	#hero {
+		position:relative;
+		z-index: 100;
+		top: -35px;
+		min-height: 573px;
+
+		article {
+		width: 100%;
+		text-align:center;
+		position:relative;
+		top:370px;
+	}
+
+		.hero-text {
+			margin: 12px 0;
+
+			h1 {
+				color:$wp-red;
+				font-weight: 500;
+				font-size: 3rem;
+			}
+		}
+	}
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

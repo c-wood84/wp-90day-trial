@@ -1,0 +1,86 @@
+// Colors
+$wp-green: #007867;
+$wp-red: #f01e14;
+$soft-grey: #f3f1f2;
+$mid-grey: #5e5e5e;
+$dark-grey: #333;
+$content-color: #919191;
+$white: #fff;
+$black: #2a2a2a;
+
+
+// Typograhy (font style, size, weight)
+@font-face {
+  font-family: 'AdelleSansRegular';
+  src: url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Regular.eot");
+  src: url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Regular.eot?#iefix") format("embedded-opentype"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Regular.woff") format("woff"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Regular.ttf") format("truetype"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Regular.svg#AdelleSansRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AdelleSansRegular';
+  src: url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Italic.eot");
+  src: url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Italic.eot?#iefix") format("embedded-opentype"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Italic.woff") format("woff"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Italic.ttf") format("truetype"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Italic.svg#AdelleSansRegular") format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'AdelleSansRegular';
+  src: url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Bold.eot");
+  src: url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Bold.eot?#iefix") format("embedded-opentype"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Bold.woff") format("woff"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Bold.ttf") format("truetype"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Bold.svg#AdelleSansRegular") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AdelleSansRegular';
+  src: url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-BoldItalic.eot");
+  src: url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-BoldItalic.eot?#iefix") format("embedded-opentype"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-BoldItalic.woff") format("woff"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-BoldItalic.ttf") format("truetype"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-BoldItalic.svg#AdelleSansRegular") format("svg");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'AdelleSansRegular';
+  src: url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Thin.eot");
+  src: url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Thin.eot?#iefix") format("embedded-opentype"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Thin.woff") format("woff"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Thin.ttf") format("truetype"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Thin.svg#AdelleSansRegular") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'AdelleSansRegular';
+  src: url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Light.eot");
+  src: url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Light.eot?#iefix") format("embedded-opentype"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Light.woff") format("woff"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Light.ttf") format("truetype"),url("http://www.worldpay.com/us/sites/all/themes/worldpay_subthemev2/fonts/AdelleSans-Light.svg#AdelleSansRegular") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+$font-family: 'AdelleSansRegular', sans-serif;
+$light:100;
+$regular:300;
+$normal:normal;
+$medium:500;
+$thick:bold;
+
+//font-sizes
+$h1-font: 3rem;
+$h2-font: 2.75rem;
+$h3-font: 2rem;
+$h4-font: 1.75rem;
+$h5-font: 1.50rem;
+$h6-font:1.25rem;
+
+
+//links
+$link-color:$wp-green;
+$link-hover:$wp-red;
+$link-decoration:none;
+
+// Buttons
+$wp-button: $wp-green;
+$wp-button-hover: $wp-red;
+
